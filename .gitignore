@@ -1,5 +1,6 @@
 mariadb/data
 mongo/data
 neo4j/data
-postgresql/postgresql
+postgresql/data
+postgresql/data_pgadmin4
 redis/data
