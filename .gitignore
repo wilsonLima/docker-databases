@@ -1,0 +1,5 @@
+mariadb/data
+mongo/data
+neo4j/data
+postgresql/postgresql
+redis/data
