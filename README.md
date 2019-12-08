@@ -12,3 +12,14 @@ Lista de banco de dados
 - Postgresql versão 12 com Pgadmin 4
 - Redis versão 5.0
 
+
+Exemplo de comando para subir uma database (dentro de cada pasta)
+------------
+
+    ./start.sh
+
+
+Exemplo de comando para destruir uma database (dentro de cada pasta)
+------------
+
+    ./stop.sh
