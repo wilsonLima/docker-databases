@@ -20,13 +20,13 @@ Script para criar as pastas dos volumes
     ./create_dirs.sh
 
 
-Script para subir os container de uma database (dentro de cada pasta)
+Script para subir o container de uma database (dentro de cada pasta)
 ------------
 
     ./start.sh
 
 
-Script para destruir os container de uma database (dentro de cada pasta)
+Script para destruir o container de uma database (dentro de cada pasta)
 ------------
 
     ./stop.sh
