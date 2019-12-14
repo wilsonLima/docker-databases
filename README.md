@@ -6,7 +6,7 @@ Containers de alguns bancos de dados para testes.
 Lista de banco de dados
 ------------
 
-- Mariadb versão 10.4
+- MySQL versão 8
 - MongoDB versão 4.2
 - Neo4j versão 3.5
 - Postgresql versão 12 com Pgadmin 4
