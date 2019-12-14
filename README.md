@@ -3,6 +3,7 @@ docker-databases
 
 Containers de alguns bancos de dados para testes.
 
+
 Lista de banco de dados
 ------------
 
@@ -13,13 +14,19 @@ Lista de banco de dados
 - Redis versão 5.0
 
 
-Exemplo de comando para subir uma database (dentro de cada pasta)
+Script para criar as pastas dos volumes
+------------
+
+    ./create_dirs.sh
+
+
+Script para subir os container de uma database (dentro de cada pasta)
 ------------
 
     ./start.sh
 
 
-Exemplo de comando para destruir uma database (dentro de cada pasta)
+Script para destruir os container de uma database (dentro de cada pasta)
 ------------
 
     ./stop.sh
