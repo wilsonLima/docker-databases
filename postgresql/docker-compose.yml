@@ -22,7 +22,5 @@ services:
       PGADMIN_DEFAULT_PASSWORD: "mudar123"
     ports:
       - 16543:80
-    volumes:
-       - ./data_pgadmin4:/var/lib/pgadmin
     depends_on:
       - postgres
