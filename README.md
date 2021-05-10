@@ -7,11 +7,11 @@ Containers de alguns bancos de dados para testes.
 Lista de banco de dados
 ------------
 
-- MongoDB versão 4.2
+- MongoDB versão 4.4.5
 - MySQL versão 8
-- Neo4j versão 3.5
-- Postgresql versão 12 com Pgadmin 4
-- Redis versão 5.0
+- Neo4j versão 6.2.3
+- Postgresql versão 13 com Pgadmin 4
+- Redis versão 6.2.3
 
 
 Script para criar as pastas dos volumes
