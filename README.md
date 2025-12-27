@@ -7,6 +7,7 @@ Containers de alguns dos principais bancos de dados para serem utilizados em tes
 Lista de banco de dados
 ------------
 
+- Elasticsearch versão 9.2.3 com Kibana versão 9.2.3
 - MongoDB versão 8
 - MySQL versão 9
 - Neo4j versão 2025-community
