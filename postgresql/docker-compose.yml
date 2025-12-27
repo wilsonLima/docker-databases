@@ -1,8 +1,7 @@
-version: '3'
 services:
 
   postgres:
-    image: postgres:16
+    image: postgres:18
     container_name: banco-postgres
     environment:
       POSTGRES_USER: postgres
@@ -11,7 +10,7 @@ services:
     ports:
       - 5432:5432
     volumes:
-      - ./data:/var/lib/postgresql/data
+      - postgres_data:/var/lib/postgresql/18/main
 
 
   pgadmin-4:
@@ -24,3 +23,6 @@ services:
       - 16543:80
     depends_on:
       - postgres
+
+volumes: 
+  postgres_data:
