@@ -1,6 +1,6 @@
 services:
   mongodb:
-    image: mongo:8-noble
+    image: mongo:8.0.21-noble
     container_name: mongodb
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
